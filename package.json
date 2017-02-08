@@ -1,0 +1,22 @@
+{
+  "name": "res-timeout",
+  "version": "1.0.1",
+  "description": "Express middleware for timing out responses",
+  "main": "index.js",
+  "devDependencies": {
+    "ava": "^0.18.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/ava test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrunyan/res-timeout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrunyan/res-timeout/issues"
+  },
+  "homepage": "https://github.com/shrunyan/res-timeout#readme"
+}
