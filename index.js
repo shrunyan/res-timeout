@@ -9,8 +9,9 @@ module.exports = function resTimeout(ms, cb = () => {}) {
   }
   return (req, res, next) => {
     res.setTimeout(ms, () => {
+      res.timedout = true
       cb()
-      res.send(408)
+      res.sendStatus(408)
     })
     next()
   }
